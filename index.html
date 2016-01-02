@@ -1,25 +1,30 @@
-<html>
-<head>
-  <title>boggs.xyz</title>
-  <meta name="google-site-verification" content="7nCidQAjfDFtkRXdr7bYQgh3oX41dSFdtJVRpD4vIlQ" />
-</head>
-<body>
-
-Still working on this thing.
-<br /><br />
-In the mean time, you can go check out some of the stuff I've made.
-<br /><br />
-<a href="https://play.google.com/store/apps/details?id=com.github.beauties_beast.phonebuddy_2">PhoneBuddy</a> by myself, <a href="https://twitter.com/chandeanne">Deanne</a>, and <a href="https://twitter.com/viaaasido">Via</a>.
-<br /><br />
-Alternatively, you can find me on other places on the Internet.
-<br /><br />
-<a href="https://github.com/b-ggs">GitHub</a>
-<br />
-<a href="https://twitter.com/b_ggs">Twitter</a>
-<br /><br />
-No fancy hello@boggs.xyz e-mail yet, so...
-<br /><br />
-<a href="mailto:hello.boggs@gmail.com">hello.boggs@gmail.com</a>
-
-</body>
-</html>
+---
+layout: default
+---
+<header class="masthead">        
+  <h1 class="masthead-title">
+    <a href="{{ site.baseurl }}/">{{ site.name }}<span></span></a>
+    <!-- <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a> -->
+  </h1>
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
+<div class="content list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
+{% for post in site.posts %}
+  <div class="list-item">
+    <h2 class="list-post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="list-post-date">
+      <time>{{ post.date | date_to_string }}</time>
+    </div>
+  </div>
+{% endfor %}
+{% endif %}
+</div>
