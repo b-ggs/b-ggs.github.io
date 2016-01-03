@@ -3,17 +3,21 @@ name:               "boggs"
 
 # URL
 baseurl:            ""
-permalink:          /:year/:month/:day/:title.html
+permalink:          /:year/:month/:day/:title
 
 # Markdown
 markdown:           rdiscount
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "//gfjaru.github.io/Kiko/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+  - name:           "about"
+    href:           "/about"
+  - name:           "projects"
+    href:           "/projects"
+  - name:           "github"
+    href:           "https://github.com/b-ggs"
+  - name:           "twitter"
+    href:           "https://twitter.com/b_ggs"
 
 # Sass
 sass:
