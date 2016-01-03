@@ -1,7 +1,5 @@
-# Kiko
+# boggs.xyz
 
-[Kiko](http://github.com/gfjaru/Kiko) is a theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
+Personal website slash blog.
 
-# License
-
-Released under MIT License.
+Hosted on [GitHub Pages](https://github.com/b-ggs/b-ggs.github.io/). Generated with [Jekyll](http://jekyllrb.com). Theme by [gfjaru](http://github.com/gfjaru/Kiko).
