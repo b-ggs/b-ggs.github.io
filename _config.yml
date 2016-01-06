@@ -1,5 +1,7 @@
 # Basic
 name:               "boggs"
+domain:             "boggs.xyz"
+protocol:           "http://"
 
 # URL
 baseurl:            ""
