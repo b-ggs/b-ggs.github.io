@@ -9,6 +9,20 @@
   </head>
 <body>
   <div class="container">
+    <header class="masthead">        
+      <h1 class="masthead-title">
+        <a href="{{ site.baseurl }}/">{{ site.name }}<span>.xyz</span></a>
+        <!-- <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a> -->
+      </h1>
+      <nav class="masthead-nav">
+        {% for nav in site.nav %}
+        <a href="{{ nav.href }}">{{ nav.name }}</a>
+        {% endfor %}
+        {% for ext_nav in site.ext_nav %}
+        <a target="_blank" href="{{ ext_nav.href }}">{{ ext_nav.name }}</a>
+        {% endfor %}
+      </nav>
+    </header>
     {{ content }}
   </div>
 </body>

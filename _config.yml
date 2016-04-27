@@ -16,6 +16,8 @@ nav:
     href:           "/about"
   - name:           "projects"
     href:           "/projects"
+
+ext_nav:
   - name:           "github"
     href:           "https://github.com/b-ggs"
   - name:           "twitter"
