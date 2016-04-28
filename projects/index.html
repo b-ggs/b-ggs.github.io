@@ -17,7 +17,10 @@ permalink: /projects/
         {{ project.duration }}
       </div>
       <div class="post">
-        {{ project.write_up }} <a target="_blank" href="{{ project.url }}">Learn more</a>
+        {{ project.write_up }}
+        {% if project.url != # %}
+          <a target="_blank" href="{{ project.url }}">More</a>
+        {% endif %}
       </div>
       <div class="post add-margin">
       {% for item in project.stack %}
