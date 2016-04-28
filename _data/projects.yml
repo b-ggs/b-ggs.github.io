@@ -1,11 +1,16 @@
 # Projects
+- name: Viros Furniture
+  url: #
+  write_up: "Ongoing project."
+  duration: "Mar 2016 - present"
+  stack:
+    - icon-ruby-on-rails
 - name: MRT Scraper
   url: http://boggs.xyz/mrt-scraper/
   write_up: "MRT Scraper is an open-source Ruby project that collects images from the DOTC MRT3 live feed. This can be run as a cron job to collect images over a specific timeframe."
   duration: "Sep 2015 - Feb 2016"
   stack:
     - icon-ruby
-
 - name: PhoneBuddy
   url: https://play.google.com/store/apps/details?id=com.github.beauties_beast.phonebuddy_2
   write_up: "PhoneBuddy is an open-source Android app that helps interface with a smartphone from any SMS-capable device. PhoneBuddy is one of the Top 30 apps featured at the first HackFair Philippines hosted by Google Developer Group Philippines in 2015."
