@@ -1,3 +1,14 @@
 # Projects
-- name: Soon.
-  write_up: 
+- name: MRT Scraper
+  url: http://boggs.xyz/mrt-scraper/
+  write_up: "Scrapes images from the DOTC MRT3 live feed. Originally used as part of our undergraduate thesis."
+  duration: "Sep 2015 - Feb 2016"
+  stack:
+    - icon-ruby
+
+- name: PhoneBuddy
+  url: https://play.google.com/store/apps/details?id=com.github.beauties_beast.phonebuddy_2
+  write_up: "PhoneBuddy is an open-source Android app that helps interface with a smartphone from any SMS-capable device. PhoneBuddy is one of the Top 30 apps featured at the first HackFair Philippines hosted by Google Developer Group Philippines in 2015."
+  duration: "Sep 2014 - Dec 2015"
+  stack:
+    - fa fa-android
