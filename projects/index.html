@@ -1,0 +1,19 @@
+---
+layout: projects
+permalink: /projects/
+---
+
+{% for project in site.data.projects %}
+  {% assign counter = forloop.index | modulo: 3 %}
+  <!-- {{ counter }} -->
+  {% if counter == 1 %}
+    <div class="row">
+  {% endif %}
+    <div class="col-sm-4">
+      {{ project.name }}
+      {{ project.write_up }}
+    </div>
+  {% if counter == 0 %}
+    </div>
+  {% endif %}
+{% endfor %}

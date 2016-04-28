@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <!-- <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title> -->
+  <title>boggs</title>
+  <link rel="shortcut icon" type="image/jpg" href="{{site.url}}/assets/dp.jpg">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/grid12.css">
   </head>
 <body>
   <div class="container">
@@ -16,10 +20,14 @@
       </h1>
       <nav class="masthead-nav">
         {% for nav in site.nav %}
-        <a href="{{ nav.href }}">{{ nav.name }}</a>
+          {% if page.url contains nav.href %}
+            <a class="active" href="{{ nav.href }}">{{ nav.name }}</a>
+          {% else %}
+            <a href="{{ nav.href }}">{{ nav.name }}</a>
+          {% endif %}
         {% endfor %}
         {% for ext_nav in site.ext_nav %}
-        <a target="_blank" href="{{ ext_nav.href }}">{{ ext_nav.name }}</a>
+          <a target="_blank" href="{{ ext_nav.href }}">{{ ext_nav.name }}</a>
         {% endfor %}
       </nav>
     </header>

@@ -5,15 +5,15 @@ protocol:           "http://"
 
 # URL
 baseurl:            ""
-permalink:          /:year/:month/:day/:title
+permalink:          /blog/:title
 
 # Markdown
-markdown:           rdiscount
+markdown:           kramdown
 
 # Navigation
 nav:
-  - name:           "about"
-    href:           "/about"
+  - name:           "blog"
+    href:           "/blog"
   - name:           "projects"
     href:           "/projects"
 
@@ -22,8 +22,6 @@ ext_nav:
     href:           "https://github.com/b-ggs"
   - name:           "twitter"
     href:           "https://twitter.com/b_ggs"
-  - name:           "medium"
-    href:           "https://medium.com/@b_ggs"
 
 # Sass
 sass:
