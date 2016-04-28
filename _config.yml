@@ -22,6 +22,8 @@ ext_nav:
     href:           "https://github.com/b-ggs"
   - name:           "twitter"
     href:           "https://twitter.com/b_ggs"
+  - name:           "medium"
+    href:           "https://medium.com/@b_ggs"
 
 # Sass
 sass:
