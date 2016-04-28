@@ -1,7 +1,7 @@
 # Projects
 - name: MRT Scraper
   url: http://boggs.xyz/mrt-scraper/
-  write_up: "Scrapes images from the DOTC MRT3 live feed. Originally used as part of our undergraduate thesis."
+  write_up: "MRT Scraper is an open-source Ruby project that collects images from the DOTC MRT3 live feed. This can be run as a cron job to collect images over a specific timeframe."
   duration: "Sep 2015 - Feb 2016"
   stack:
     - icon-ruby
