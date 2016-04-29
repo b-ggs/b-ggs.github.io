@@ -5,15 +5,15 @@ permalink: /
 
 I [make stuff][make] with Ruby and JavaScript.
 
-I'm currently participating in the [Google Summer of Code 2016][gsoc]{:target="_blank"}, where I'm helping maintain [bundler][bundler]{:target="_blank"}.
+Currently participating in the [Google Summer of Code 2016][gsoc]{:target="_blank"}, where I'm helping maintain [bundler][bundler]{:target="_blank"}.
 
-I'm on my senior year at De La Salle University taking up [Computer Science][csst]{:target="_blank"}.
+On my senior year at De La Salle University taking up [Computer Science][csst]{:target="_blank"}.
 
-I was a Software Engineer Intern at [inDinero][ind]{:target="_blank"}.
+Previously a Software Engineer Intern at [inDinero][ind]{:target="_blank"}.
 
-I occasionally [write things][write] too. Here's my latest post on [{{ site.posts[0].title }}][latest].
+I occasionally [write stuff][write] too. Here's my latest post on [{{ site.posts[0].title }}][latest].
 
-I can also be found at other places - [Twitter][tw]{:target="_blank"}, [GitHub][gh]{:target="_blank"}, [LinkedIn][li]{:target="_blank"}.
+I can also be found elsewhere - [Twitter][tw]{:target="_blank"}, [GitHub][gh]{:target="_blank"}, [LinkedIn][li]{:target="_blank"}.
 
 [make]: /projects
 [write]: /blog
