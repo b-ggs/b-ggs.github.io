@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title> -->
-  <title>boggs</title>
+  <title>{{ site.name }} {{ site.name_ext }}</title>
   <link rel="shortcut icon" type="image/jpg" href="{{site.url}}/assets/dp.jpg">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -16,7 +16,7 @@
   <div class="container">
     <header class="masthead">        
       <h1 class="masthead-title">
-        <a href="{{ site.baseurl }}/">{{ site.name }}<span>.xyz</span></a>
+        <a href="{{ site.baseurl }}/">{{ site.name }}<span> {{ site.name_ext }}</span></a>
         <!-- <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a> -->
       </h1>
       <nav class="masthead-nav">

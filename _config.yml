@@ -1,5 +1,6 @@
 # Basic
 name:               "boggs"
+name_ext:           "aldanese"
 domain:             "boggs.xyz"
 protocol:           "http://"
 
@@ -12,6 +13,8 @@ markdown:           kramdown
 
 # Navigation
 nav:
+  # - name:           "about"
+  #   href:           "/about"
   - name:           "blog"
     href:           "/blog"
   - name:           "projects"
