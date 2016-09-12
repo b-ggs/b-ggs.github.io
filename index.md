@@ -13,7 +13,7 @@ Previously a Software Engineer Intern at [inDinero][ind]{:target="_blank"}.
 
 I occasionally [write stuff][write] too. Here's my latest post on [{{ site.posts[0].title }}][latest].
 
-I can also be found elsewhere - [Twitter][tw]{:target="_blank"}, [GitHub][gh]{:target="_blank"}, [LinkedIn][li]{:target="_blank"}, [E-mail][em].
+I can also be found elsewhere - [Twitter][tw]{:target="_blank"}, [GitHub][gh]{:target="_blank"}, [LinkedIn][li]{:target="_blank"}.
 
 [make]: /projects
 [write]: /blog
