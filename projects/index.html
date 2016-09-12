@@ -18,7 +18,10 @@ permalink: /projects/
       </div>
       <div class="post">
         {{ project.write_up }}
-        {% if project.url != # %}
+        {% if project.play_store %}
+          <a target="_blank" href="{{ project.play_store }}">Play Store</a>
+        {% endif %}
+        {% if project.url %}
           <a target="_blank" href="{{ project.url }}">More</a>
         {% endif %}
       </div>

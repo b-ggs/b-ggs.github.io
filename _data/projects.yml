@@ -1,19 +1,27 @@
 # Projects
-- name: Viros Furniture
-  url: #
+- name: Chum Chooser
   write_up: "Ongoing project."
-  duration: "Mar 2016 - present"
+  duration: "Sept 2016 - present"
+  stack:
+    - icon-javascript
+    - icon-iphone
+- name: Dr. Carrot
+  write_up: "Developed a Rails API and Ionic hybrid mobile app for a Singapore-based nationwide health campaign that helped keep track of users' various body stats"
+  duration: "Mar 2016 - Aug 2016"
   stack:
     - icon-ruby-on-rails
-- name: MRT Scraper
-  url: http://boggs.xyz/mrt-scraper/
-  write_up: "MRT Scraper is an open-source Ruby project that collects images from the DOTC MRT3 live feed. This can be run as a cron job to collect images over a specific timeframe."
-  duration: "Sep 2015 - Feb 2016"
+    - icon-javascript
+    - icon-iphone
+- name: Viros Furniture
+  write_up: "Developed an inventory and sales management system for a local furniture shop"
+  duration: "Mar 2016 - Aug 2016"
   stack:
-    - icon-ruby
+    - icon-ruby-on-rails
+    - icon-javascript
 - name: PhoneBuddy
-  url: https://play.google.com/store/apps/details?id=com.github.beauties_beast.phonebuddy_2
+  play_store: https://play.google.com/store/apps/details?id=com.github.beauties_beast.phonebuddy_2
   write_up: "PhoneBuddy is an open-source Android app that helps interface with a smartphone from any SMS-capable device. PhoneBuddy is one of the Top 30 apps featured at the first HackFair Philippines hosted by Google Developer Group Philippines in 2015."
   duration: "Sep 2014 - Dec 2015"
   stack:
     - fa fa-android
+    - icon-iphone
