@@ -1,10 +1,4 @@
 # Projects
-- name: Chum Chooser
-  write_up: "Ongoing project."
-  duration: "Sept 2016 - present"
-  stack:
-    - icon-javascript
-    - icon-iphone
 - name: Dr. Carrot
   write_up: "Developed a Rails API and Ionic hybrid mobile app for a Singapore-based nationwide health campaign that helped keep track of users' various body stats"
   duration: "Mar 2016 - Aug 2016"
