@@ -1,4 +1,17 @@
 # Projects
+- name: GS Tech Dishwashing
+  write_up: "Developed a Rails API, Rails web app, and Ionic hybrid mobile app for a Singapore-based dishwashing service that streamlines the tracking of internal operations and utensil deliveries to its various clients."
+  duration: "Nov 2016 - Present"
+  stack:
+    - icon-ruby-on-rails
+    - icon-javascript
+    - icon-iphone
+- name: Swarm
+  write_up: "Continued development of my undergraduate thesis that simulates and analyzes the flow of commuters in third-world train stations."
+  duration: "Oct 2016 - Present"
+  stack:
+    - icon-ruby-on-rails
+    - icon-javascript
 - name: Dr. Carrot
   write_up: "Developed a Rails API and Ionic hybrid mobile app for a Singapore-based nationwide health campaign that helped keep track of users' various body stats"
   duration: "Mar 2016 - Aug 2016"
@@ -7,7 +20,7 @@
     - icon-javascript
     - icon-iphone
 - name: Viros Furniture
-  write_up: "Developed an inventory and sales management system for a local furniture shop"
+  write_up: "Developed Rails-based inventory and sales management system for a local furniture shop"
   duration: "Mar 2016 - Aug 2016"
   stack:
     - icon-ruby-on-rails
