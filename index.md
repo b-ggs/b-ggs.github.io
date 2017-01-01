@@ -5,11 +5,11 @@ permalink: /
 
 I [make stuff][make] with Ruby and JavaScript.
 
+Current Junior Software Engineer, and former Software Engineer Intern at [inDinero][ind]{:target="\_blank"}.
+
 Participated in the [Google Summer of Code 2016][gsoc]{:target="\_blank"}, where I contributed to [bundler][bundler]{:target="\_blank"}.
 
-Recently graduated from De La Salle University with a degree in [Computer Science][csst]{:target="\_blank"}.
-
-Previously a Software Engineer Intern at [inDinero][ind]{:target="\_blank"}.
+Graduated from De La Salle University with a degree in [Computer Science][csst]{:target="\_blank"}.
 
 I occasionally [write stuff][write] too. Here's my latest post on [{{ site.posts[0].title }}][latest].
 
