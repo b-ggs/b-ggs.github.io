@@ -1,5 +1,12 @@
 # boggs.xyz
 
-Personal website slash blog.
+landing page
 
-Hosted on [GitHub Pages](https://github.com/b-ggs/b-ggs.github.io/). Generated with [Jekyll](http://jekyllrb.com). Theme by [gfjaru](http://github.com/gfjaru/Kiko).
+**color scheme**: [vapor][vapor] by [u/__geb][geb]
+
+**font**: [iosevka term][iosevka] by [be5invis][be5invis]
+
+[vapor]: https://www.reddit.com/comments/6lgjjm
+[geb]: https://www.reddit.com/user/__geb
+[iosevka]: https://be5invis.github.io/Iosevka/
+[be5invis]: https://github.com/be5invis
