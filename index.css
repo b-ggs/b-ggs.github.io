@@ -12,7 +12,8 @@ body {
   user-select: none;
 }
 
-div {
+div,
+span {
   font-family: 'Iosevka Term';
   font-size: 24px;
 }
