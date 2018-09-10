@@ -1,7 +1,3 @@
-.container {
-  padding: 5px;
-}
-
 @font-face {
   font-family: 'Iosevka Term';
   src: url(fonts/iosevka-term-regular.woff) format('woff');
@@ -69,6 +65,10 @@ img {
   align-items: top;
   display: flex;
   flex-wrap: wrap;
+}
+
+.neofetch-content {
+  flex-grow: 1;
 }
 
 .neofetch-line {
