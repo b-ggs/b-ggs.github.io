@@ -5,11 +5,19 @@
     <meta property='og:title' content='boggs aldanese'>
     <meta property='og:description' content='converts beer to code • ruby, bash, docker, javascript'>
     <meta property='og:url' content='https://boggs.xyz'>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <link rel='stylesheet' type='text/css' href='index.css'>
+    <script>
+      WebFont.load({
+        custom: { families: ['Iosevka Term'] },
+        timeout: 2000,
+        active: function() { document.getElementById('container').classList = 'loaded' }
+      });
+    </script>
     <script src='index.js'></script>
   </head>
   <body>
-    <div class='container'>
+    <div id='container'>
       <div class='line'>
         <div class='normal'>Last login: <span id='date-string'></span> on ttys007</div>
       </div>

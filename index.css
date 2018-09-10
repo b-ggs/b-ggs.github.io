@@ -25,6 +25,14 @@ img {
   margin-bottom: 3px;
 }
 
+#container {
+  display: none;
+}
+
+#container.loaded {
+  display: block;
+}
+
 .line {
   align-items: center;
   display: flex;
