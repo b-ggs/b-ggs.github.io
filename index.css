@@ -1,7 +1,21 @@
+@font-face {
+  font-family: "Iosevka Web";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/Iosevka/11.1.1/iosevka/woff2/iosevka-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/Iosevka/11.1.1/iosevka/woff2/iosevka-bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   background-color: #352939;
   color: #f4cde9;
-  font-family: "Iosevka Term", sans-serif;
+  font-family: "Iosevka Web", sans-serif;
   margin: auto;
   max-width: 600px;
 }
